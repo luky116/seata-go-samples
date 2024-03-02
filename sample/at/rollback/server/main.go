@@ -22,9 +22,9 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/seata/seata-go/pkg/client"
-	ginmiddleware "github.com/seata/seata-go/pkg/integration/gin"
-	"github.com/seata/seata-go/pkg/util/log"
+	"github.com/apache/seata-go/pkg/client"
+	ginmiddleware "github.com/apache/seata-go/pkg/integration/gin"
+	"github.com/apache/seata-go/pkg/util/log"
 )
 
 func main() {

@@ -24,12 +24,12 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/seata/seata-go/pkg/client"
-	grpc2 "github.com/seata/seata-go/pkg/integration/grpc"
-	"github.com/seata/seata-go/pkg/rm/tcc"
-	"github.com/seata/seata-go/pkg/util/log"
-	"github.com/seata/seata-go/sample/tcc/grpc/pb"
-	"github.com/seata/seata-go/sample/tcc/grpc/service"
+	"github.com/apache/seata-go/pkg/client"
+	grpc2 "github.com/apache/seata-go/pkg/integration/grpc"
+	"github.com/apache/seata-go/pkg/rm/tcc"
+	"github.com/apache/seata-go/pkg/util/log"
+	"github.com/apache/seata-go/sample/tcc/grpc/pb"
+	"github.com/apache/seata-go/sample/tcc/grpc/service"
 )
 
 func main() {

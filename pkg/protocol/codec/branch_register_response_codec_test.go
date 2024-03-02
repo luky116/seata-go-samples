@@ -20,9 +20,9 @@ package codec
 import (
 	"testing"
 
-	serror "github.com/seata/seata-go/pkg/util/errors"
+	serror "github.com/apache/seata-go/pkg/util/errors"
 
-	"github.com/seata/seata-go/pkg/protocol/message"
+	"github.com/apache/seata-go/pkg/protocol/message"
 	"github.com/stretchr/testify/assert"
 )
 

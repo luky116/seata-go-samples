@@ -20,9 +20,9 @@ package types
 import (
 	"fmt"
 
+	seatabytes "github.com/apache/seata-go/pkg/util/bytes"
 	"github.com/arana-db/parser/ast"
 	"github.com/arana-db/parser/format"
-	seatabytes "github.com/seata/seata-go/pkg/util/bytes"
 )
 
 type ExecutorType int32

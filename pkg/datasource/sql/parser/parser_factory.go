@@ -18,9 +18,9 @@
 package parser
 
 import (
+	"github.com/apache/seata-go/pkg/datasource/sql/types"
 	aparser "github.com/arana-db/parser"
 	"github.com/arana-db/parser/ast"
-	"github.com/seata/seata-go/pkg/datasource/sql/types"
 )
 
 func DoParser(query string) (*types.ParseContext, error) {

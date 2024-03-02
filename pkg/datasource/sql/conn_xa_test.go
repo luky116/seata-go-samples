@@ -24,12 +24,12 @@ import (
 	"sync/atomic"
 	"testing"
 
+	"github.com/apache/seata-go/pkg/datasource/sql/exec"
+	"github.com/apache/seata-go/pkg/datasource/sql/mock"
+	"github.com/apache/seata-go/pkg/datasource/sql/types"
+	"github.com/apache/seata-go/pkg/tm"
 	"github.com/golang/mock/gomock"
 	"github.com/google/uuid"
-	"github.com/seata/seata-go/pkg/datasource/sql/exec"
-	"github.com/seata/seata-go/pkg/datasource/sql/mock"
-	"github.com/seata/seata-go/pkg/datasource/sql/types"
-	"github.com/seata/seata-go/pkg/tm"
 	"github.com/stretchr/testify/assert"
 )
 

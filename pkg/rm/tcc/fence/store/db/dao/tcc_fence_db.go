@@ -26,10 +26,10 @@ import (
 
 	"github.com/go-sql-driver/mysql"
 
-	"github.com/seata/seata-go/pkg/rm/tcc/fence/enum"
-	"github.com/seata/seata-go/pkg/rm/tcc/fence/store/db/model"
-	sql2 "github.com/seata/seata-go/pkg/rm/tcc/fence/store/db/sql"
-	"github.com/seata/seata-go/pkg/util/errors"
+	"github.com/apache/seata-go/pkg/rm/tcc/fence/enum"
+	"github.com/apache/seata-go/pkg/rm/tcc/fence/store/db/model"
+	sql2 "github.com/apache/seata-go/pkg/rm/tcc/fence/store/db/sql"
+	"github.com/apache/seata-go/pkg/util/errors"
 )
 
 var (

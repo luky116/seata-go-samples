@@ -20,7 +20,7 @@ package getty
 import (
 	"testing"
 
-	"github.com/seata/seata-go/pkg/protocol/message"
+	"github.com/apache/seata-go/pkg/protocol/message"
 	"github.com/stretchr/testify/assert"
 )
 

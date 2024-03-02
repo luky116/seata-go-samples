@@ -24,9 +24,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/seata/seata-go/pkg/tm"
-	"github.com/seata/seata-go/sample/tcc/dubbo/client/service"
-	testdata2 "github.com/seata/seata-go/testdata"
+	"github.com/apache/seata-go/pkg/tm"
+	"github.com/apache/seata-go/sample/tcc/dubbo/client/service"
+	testdata2 "github.com/apache/seata-go/testdata"
 )
 
 func TestParseTwoPhaseActionGetMethodName(t *testing.T) {

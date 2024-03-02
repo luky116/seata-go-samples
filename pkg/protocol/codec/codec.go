@@ -21,8 +21,8 @@ import (
 	"bytes"
 	"sync"
 
-	"github.com/seata/seata-go/pkg/protocol/message"
-	"github.com/seata/seata-go/pkg/util/log"
+	"github.com/apache/seata-go/pkg/protocol/message"
+	"github.com/apache/seata-go/pkg/util/log"
 	"vimagination.zapto.org/byteio"
 )
 

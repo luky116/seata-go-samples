@@ -23,15 +23,15 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/apache/seata-go/pkg/datasource/sql/datasource"
 	"github.com/arana-db/parser/ast"
 	"github.com/arana-db/parser/format"
 	"github.com/arana-db/parser/model"
-	"github.com/seata/seata-go/pkg/datasource/sql/datasource"
 
-	"github.com/seata/seata-go/pkg/datasource/sql/types"
-	"github.com/seata/seata-go/pkg/datasource/sql/undo"
-	"github.com/seata/seata-go/pkg/util/bytes"
-	"github.com/seata/seata-go/pkg/util/log"
+	"github.com/apache/seata-go/pkg/datasource/sql/types"
+	"github.com/apache/seata-go/pkg/datasource/sql/undo"
+	"github.com/apache/seata-go/pkg/util/bytes"
+	"github.com/apache/seata-go/pkg/util/log"
 )
 
 const (

@@ -20,7 +20,7 @@ package parser
 import (
 	"testing"
 
-	"github.com/seata/seata-go/pkg/datasource/sql/types"
+	"github.com/apache/seata-go/pkg/datasource/sql/types"
 	"github.com/stretchr/testify/assert"
 
 	_ "github.com/arana-db/parser/test_driver"

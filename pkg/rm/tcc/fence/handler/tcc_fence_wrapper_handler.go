@@ -25,12 +25,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/seata/seata-go/pkg/rm/tcc/fence/enum"
-	"github.com/seata/seata-go/pkg/rm/tcc/fence/store/db/dao"
-	"github.com/seata/seata-go/pkg/rm/tcc/fence/store/db/model"
-	"github.com/seata/seata-go/pkg/tm"
-	seataErrors "github.com/seata/seata-go/pkg/util/errors"
-	"github.com/seata/seata-go/pkg/util/log"
+	"github.com/apache/seata-go/pkg/rm/tcc/fence/enum"
+	"github.com/apache/seata-go/pkg/rm/tcc/fence/store/db/dao"
+	"github.com/apache/seata-go/pkg/rm/tcc/fence/store/db/model"
+	"github.com/apache/seata-go/pkg/tm"
+	seataErrors "github.com/apache/seata-go/pkg/util/errors"
+	"github.com/apache/seata-go/pkg/util/log"
 )
 
 type tccFenceWrapperHandler struct {

@@ -20,7 +20,7 @@ package main
 import (
 	"database/sql"
 
-	sql2 "github.com/seata/seata-go/pkg/datasource/sql"
+	sql2 "github.com/apache/seata-go/pkg/datasource/sql"
 )
 
 var (

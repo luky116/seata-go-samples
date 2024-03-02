@@ -24,11 +24,11 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/seata/seata-go/pkg/rm"
+	"github.com/apache/seata-go/pkg/rm"
 
+	"github.com/apache/seata-go/pkg/datasource/sql/mock"
+	"github.com/apache/seata-go/pkg/util/reflectx"
 	"github.com/golang/mock/gomock"
-	"github.com/seata/seata-go/pkg/datasource/sql/mock"
-	"github.com/seata/seata-go/pkg/util/reflectx"
 	"github.com/stretchr/testify/assert"
 )
 

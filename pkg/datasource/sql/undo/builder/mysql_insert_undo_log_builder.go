@@ -22,12 +22,12 @@ import (
 	"database/sql/driver"
 	"strings"
 
+	"github.com/apache/seata-go/pkg/datasource/sql/types"
+	"github.com/apache/seata-go/pkg/datasource/sql/undo"
+	"github.com/apache/seata-go/pkg/datasource/sql/undo/executor"
+	"github.com/apache/seata-go/pkg/util/log"
 	"github.com/arana-db/parser/ast"
 	"github.com/pkg/errors"
-	"github.com/seata/seata-go/pkg/datasource/sql/types"
-	"github.com/seata/seata-go/pkg/datasource/sql/undo"
-	"github.com/seata/seata-go/pkg/datasource/sql/undo/executor"
-	"github.com/seata/seata-go/pkg/util/log"
 )
 
 const (

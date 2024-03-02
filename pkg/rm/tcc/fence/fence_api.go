@@ -22,11 +22,11 @@ import (
 	"database/sql"
 	"fmt"
 
-	"github.com/seata/seata-go/pkg/rm/tcc/fence/enum"
-	"github.com/seata/seata-go/pkg/rm/tcc/fence/handler"
-	"github.com/seata/seata-go/pkg/tm"
-	"github.com/seata/seata-go/pkg/util/errors"
-	"github.com/seata/seata-go/pkg/util/log"
+	"github.com/apache/seata-go/pkg/rm/tcc/fence/enum"
+	"github.com/apache/seata-go/pkg/rm/tcc/fence/handler"
+	"github.com/apache/seata-go/pkg/tm"
+	"github.com/apache/seata-go/pkg/util/errors"
+	"github.com/apache/seata-go/pkg/util/log"
 )
 
 // WithFence This method is a suspended API interface that asserts the phase timing of a transaction

@@ -25,8 +25,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/seata/seata-go/pkg/datasource/sql/datasource/base"
-	"github.com/seata/seata-go/pkg/datasource/sql/types"
+	"github.com/apache/seata-go/pkg/datasource/sql/datasource/base"
+	"github.com/apache/seata-go/pkg/datasource/sql/types"
 )
 
 var (

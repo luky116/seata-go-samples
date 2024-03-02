@@ -22,10 +22,10 @@ import (
 
 	_ "github.com/go-sql-driver/mysql"
 
-	"github.com/seata/seata-go/pkg/client"
-	"github.com/seata/seata-go/pkg/tm"
-	"github.com/seata/seata-go/pkg/util/log"
-	"github.com/seata/seata-go/sample/tcc/fence/service"
+	"github.com/apache/seata-go/pkg/client"
+	"github.com/apache/seata-go/pkg/tm"
+	"github.com/apache/seata-go/pkg/util/log"
+	"github.com/apache/seata-go/sample/tcc/fence/service"
 )
 
 func main() {

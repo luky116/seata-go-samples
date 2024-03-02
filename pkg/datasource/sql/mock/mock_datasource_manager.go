@@ -27,11 +27,11 @@ import (
 	reflect "reflect"
 	sync "sync"
 
+	datasource "github.com/apache/seata-go/pkg/datasource/sql/datasource"
+	types "github.com/apache/seata-go/pkg/datasource/sql/types"
+	branch "github.com/apache/seata-go/pkg/protocol/branch"
+	rm "github.com/apache/seata-go/pkg/rm"
 	gomock "github.com/golang/mock/gomock"
-	datasource "github.com/seata/seata-go/pkg/datasource/sql/datasource"
-	types "github.com/seata/seata-go/pkg/datasource/sql/types"
-	branch "github.com/seata/seata-go/pkg/protocol/branch"
-	rm "github.com/seata/seata-go/pkg/rm"
 )
 
 // MockDataSourceManager is a mock of DataSourceManager interface.

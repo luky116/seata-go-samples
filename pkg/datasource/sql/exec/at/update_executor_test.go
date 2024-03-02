@@ -24,17 +24,17 @@ import (
 	"testing"
 
 	"github.com/agiledragon/gomonkey"
-	"github.com/seata/seata-go/pkg/datasource/sql/datasource"
-	"github.com/seata/seata-go/pkg/datasource/sql/datasource/mysql"
-	"github.com/seata/seata-go/pkg/datasource/sql/exec"
-	"github.com/seata/seata-go/pkg/datasource/sql/util"
+	"github.com/apache/seata-go/pkg/datasource/sql/datasource"
+	"github.com/apache/seata-go/pkg/datasource/sql/datasource/mysql"
+	"github.com/apache/seata-go/pkg/datasource/sql/exec"
+	"github.com/apache/seata-go/pkg/datasource/sql/util"
 
-	"github.com/seata/seata-go/pkg/datasource/sql/types"
+	"github.com/apache/seata-go/pkg/datasource/sql/types"
 
-	"github.com/seata/seata-go/pkg/datasource/sql/parser"
+	"github.com/apache/seata-go/pkg/datasource/sql/parser"
 
+	_ "github.com/apache/seata-go/pkg/util/log"
 	_ "github.com/arana-db/parser/test_driver"
-	_ "github.com/seata/seata-go/pkg/util/log"
 	"github.com/stretchr/testify/assert"
 )
 

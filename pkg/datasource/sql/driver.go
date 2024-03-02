@@ -25,13 +25,13 @@ import (
 	"fmt"
 	"strings"
 
-	mysql2 "github.com/seata/seata-go/pkg/datasource/sql/datasource/mysql"
+	mysql2 "github.com/apache/seata-go/pkg/datasource/sql/datasource/mysql"
 
+	"github.com/apache/seata-go/pkg/datasource/sql/datasource"
+	"github.com/apache/seata-go/pkg/datasource/sql/types"
+	"github.com/apache/seata-go/pkg/protocol/branch"
+	"github.com/apache/seata-go/pkg/util/log"
 	"github.com/go-sql-driver/mysql"
-	"github.com/seata/seata-go/pkg/datasource/sql/datasource"
-	"github.com/seata/seata-go/pkg/datasource/sql/types"
-	"github.com/seata/seata-go/pkg/protocol/branch"
-	"github.com/seata/seata-go/pkg/util/log"
 )
 
 const (

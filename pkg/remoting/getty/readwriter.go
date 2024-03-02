@@ -20,12 +20,12 @@ package getty
 import (
 	"fmt"
 
-	"github.com/seata/seata-go/pkg/util/bytes"
+	"github.com/apache/seata-go/pkg/util/bytes"
 
 	getty "github.com/apache/dubbo-getty"
+	"github.com/apache/seata-go/pkg/protocol/codec"
+	"github.com/apache/seata-go/pkg/protocol/message"
 	"github.com/pkg/errors"
-	"github.com/seata/seata-go/pkg/protocol/codec"
-	"github.com/seata/seata-go/pkg/protocol/message"
 )
 
 /**

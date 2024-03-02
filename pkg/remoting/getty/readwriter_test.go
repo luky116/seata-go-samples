@@ -21,8 +21,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/seata/seata-go/pkg/protocol/codec"
-	"github.com/seata/seata-go/pkg/protocol/message"
+	"github.com/apache/seata-go/pkg/protocol/codec"
+	"github.com/apache/seata-go/pkg/protocol/message"
 	"github.com/stretchr/testify/assert"
 )
 

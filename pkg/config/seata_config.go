@@ -20,8 +20,8 @@ package config
 import (
 	"path/filepath"
 
-	"github.com/seata/seata-go/pkg/config/parser"
-	"github.com/seata/seata-go/pkg/util/log"
+	"github.com/apache/seata-go/pkg/config/parser"
+	"github.com/apache/seata-go/pkg/util/log"
 )
 
 var (

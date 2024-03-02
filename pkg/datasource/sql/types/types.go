@@ -22,7 +22,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/seata/seata-go/pkg/protocol/branch"
+	"github.com/apache/seata-go/pkg/protocol/branch"
 
 	"github.com/google/uuid"
 )

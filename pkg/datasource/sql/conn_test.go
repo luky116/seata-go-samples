@@ -20,9 +20,9 @@ package sql
 import (
 	"testing"
 
-	"github.com/seata/seata-go/pkg/datasource/sql/exec"
-	"github.com/seata/seata-go/pkg/datasource/sql/exec/xa"
-	"github.com/seata/seata-go/pkg/datasource/sql/types"
+	"github.com/apache/seata-go/pkg/datasource/sql/exec"
+	"github.com/apache/seata-go/pkg/datasource/sql/exec/xa"
+	"github.com/apache/seata-go/pkg/datasource/sql/types"
 	"github.com/stretchr/testify/assert"
 )
 

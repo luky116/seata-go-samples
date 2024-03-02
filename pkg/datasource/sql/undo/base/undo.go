@@ -25,14 +25,14 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/apache/seata-go/pkg/constant"
+	"github.com/apache/seata-go/pkg/datasource/sql/datasource"
+	"github.com/apache/seata-go/pkg/datasource/sql/types"
+	"github.com/apache/seata-go/pkg/datasource/sql/undo"
+	"github.com/apache/seata-go/pkg/datasource/sql/undo/factor"
+	"github.com/apache/seata-go/pkg/util/log"
 	"github.com/arana-db/parser/mysql"
 	"github.com/pkg/errors"
-	"github.com/seata/seata-go/pkg/constant"
-	"github.com/seata/seata-go/pkg/datasource/sql/datasource"
-	"github.com/seata/seata-go/pkg/datasource/sql/types"
-	"github.com/seata/seata-go/pkg/datasource/sql/undo"
-	"github.com/seata/seata-go/pkg/datasource/sql/undo/factor"
-	"github.com/seata/seata-go/pkg/util/log"
 )
 
 // checkUndoLogTableExistSql check undo log if exist

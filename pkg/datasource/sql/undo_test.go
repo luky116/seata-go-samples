@@ -22,8 +22,8 @@ import (
 	"database/sql"
 	"testing"
 
-	"github.com/seata/seata-go/pkg/datasource/sql/undo/base"
-	"github.com/seata/seata-go/pkg/datasource/sql/undo/mysql"
+	"github.com/apache/seata-go/pkg/datasource/sql/undo/base"
+	"github.com/apache/seata-go/pkg/datasource/sql/undo/mysql"
 	"github.com/stretchr/testify/assert"
 )
 

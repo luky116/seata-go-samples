@@ -27,15 +27,15 @@ import (
 	"time"
 
 	"github.com/agiledragon/gomonkey"
+	"github.com/apache/seata-go/pkg/constant"
 	gostnet "github.com/dubbogo/gost/net"
-	"github.com/seata/seata-go/pkg/constant"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/seata/seata-go/pkg/rm"
-	"github.com/seata/seata-go/pkg/tm"
-	"github.com/seata/seata-go/pkg/util/log"
-	"github.com/seata/seata-go/sample/tcc/dubbo/client/service"
-	testdata2 "github.com/seata/seata-go/testdata"
+	"github.com/apache/seata-go/pkg/rm"
+	"github.com/apache/seata-go/pkg/tm"
+	"github.com/apache/seata-go/pkg/util/log"
+	"github.com/apache/seata-go/sample/tcc/dubbo/client/service"
+	testdata2 "github.com/apache/seata-go/testdata"
 )
 
 var (

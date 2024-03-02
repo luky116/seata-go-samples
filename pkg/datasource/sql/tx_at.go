@@ -18,7 +18,7 @@
 package sql
 
 import (
-	"github.com/seata/seata-go/pkg/datasource/sql/undo"
+	"github.com/apache/seata-go/pkg/datasource/sql/undo"
 
 	"github.com/pkg/errors"
 )
